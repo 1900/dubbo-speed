@@ -1,0 +1,21 @@
+<?Mapper version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.funtime.dubbo.mapper.SnsUserThirdpartyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.funtime.dubbo.entity.SnsUserThirdparty">
+        <id column="id" property="id" />
+        <result column="uid" property="uid" />
+        <result column="open_id" property="openId" />
+        <result column="user_no" property="userNo" />
+        <result column="access_token" property="accessToken" />
+        <result column="provider_type" property="providerType" />
+        <result column="create_by" property="createBy" />
+        <result column="create_date" property="createDate" />
+        <result column="remarks" property="remarks" />
+        <result column="status" property="status" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_date" property="updateDate" />
+    </resultMap>
+
+</mapper>
